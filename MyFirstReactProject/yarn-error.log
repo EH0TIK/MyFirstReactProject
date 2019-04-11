@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Brackets\command;C:\Program Files\TortoiseHg\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\DIMA\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\DIMA\AppData\Local\Programs\Python\Python35-32\;C:\Users\DIMA\AppData\Local\Microsoft\WindowsApps;C:\Users\DIMA\AppData\Roaming\npm;C:\Users\DIMA\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\DIMA\Desktop\ReactTestTask-MaxUser99-patch-1\package.json: Unexpected token } in JSON at position 655
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "react_routing_tut",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "prop-types": "^15.6.2",
+      "react": "^16.6.0",
+      "react-dom": "^16.6.0",
+      "react-redux": "^5.1.0",
+      "react-router-dom": "^4.3.1",
+      "react-scripts": "2.1.1",
+      "redux": "^4.0.1",
+      "redux-saga": "^0.16.2",
+      "eslint-plugin-babel": "5.3.0",
+      "eslint-config-airbnb": "17.1.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
